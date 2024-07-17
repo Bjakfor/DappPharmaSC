@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+  background-color: #e9ecef;
+  font-family: 'Arial', sans-serif;
+}
+
+.container-xl {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+u {
+  color: black;
+}
+
+.card {
+  border: none;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #39d446;
+  color: black;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+}
+
+.card-body {
+  text-align: center;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.icon {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.text-center .icon {
+  font-size: 3rem;
+  color: #28a745;
+}
+
+.btn {
+  margin: 0 5px;
+  font-size: 1rem;
+  padding: 8px 15px;
+}
+
+.btn-outline-success {
+  border-color: #28a745;
+  color: #28a745;
+}
+
+.btn-outline-success:hover {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+.btn-outline-danger {
+  border-color: #dc3545;
+  color: #dc3545;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+.text-center {
+  margin-top: 20px;
+}
+

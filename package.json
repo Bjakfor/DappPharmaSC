@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "chai": "^5.1.1"
+  }
+}
